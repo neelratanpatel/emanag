@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Event List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+  />
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>E</span>manag</a>
+    </header>
+    <div class="container">
+        <h1>Admin Panel - Event List</h1>
+        <a href="index.html" class="add-event">Add</a>
+        <br>
+        <br>
+        <table id="eventTable">
+            <thead>
+                <tr>
+                    <th>Select</th>
+                    <th>Event ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>City</th>
+                    <th>Address</th>
+                    <th>Gender</th>
+                    <th>Pricing</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Type</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Event rows will be populated here -->
+            </tbody>
+        </table>
+        <button id="deleteSelected" class="delete-button">Delete Selected Events</button><br>
+        
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
